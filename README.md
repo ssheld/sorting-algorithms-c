@@ -1,1 +1,1 @@
-"# sorting-algorithms-c" 
+Various Sorting Algorithms written in C
