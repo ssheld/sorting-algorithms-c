@@ -1,7 +1,7 @@
 /*
 ** Author: Stephen Sheldon 3/3/2019
 ** A simple insertion sort
-** Runtime: O(n^2)
+** Time Complexity: O(n^2)
 */
 
 void insertion_sort(int *arr, int len) 
