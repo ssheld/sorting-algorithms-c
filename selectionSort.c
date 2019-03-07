@@ -2,7 +2,7 @@
 ** Author: Stephen Sheldon 3/5/2019
 **
 ** A simple Selection Sort for integers
-** Runtime: O(n^2)
+** Time Complexity: O(n^2)
 */
 
 void selection_sort(int *arr, int len) 
