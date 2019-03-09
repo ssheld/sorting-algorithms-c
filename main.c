@@ -16,6 +16,7 @@ int main() {
 	printf("2. Insertion Sort\n");
 	printf("3. Merge Sort\n");
 	printf("4. Quick Sort\n");
+	printf("5. Bubble Sort\n");
 	
 	scanf("%d", &choice);
 	
@@ -33,6 +34,8 @@ int main() {
 		printf("You chose Merge Sort!\n");
 	else if (choice == 4)
 		printf("You chose Quick Sort!\n");
+	else if (choice == 5)
+		printf("\nYou chose Bubble Sort..\n");
 	while (!feof (file)) 
 	{
 		fscanf(file, "%d", &len);
@@ -54,6 +57,8 @@ int main() {
 			merge_sort(arr, len);
 		else if (choice == 4)
 			quick_sort(arr, 0, len-1);
+		else if (choice == 5)
+			bubble_sort(arr, len);
 		
 		printf("Array after sorting is: ");
 		printArray(arr, len);
