@@ -10,7 +10,7 @@
 
 void quick_sort(int arr[], int start, int end)
 {
-	int pivot, left, right;
+	int pivot;;
 	
 	if (start < end)
 	{
